@@ -1,7 +1,7 @@
 import re
 import sys
 
-
+print "Hi this is my commit"
 f = open("10005_pg1.dat", "r")
 fw = open("dumy.csv","w")
 for line in f.readlines():
@@ -22,7 +22,7 @@ for line in f.readlines():
  Q2 = line[204:229]
  Q3 = line[229:254]
  Q4 = line[254:279]
-
+ 
 
 
  print x
